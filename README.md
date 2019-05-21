@@ -19,8 +19,8 @@ This course will give you a good understanding of the development aspects of Azu
 To fully benefit from the coverage included in this course, you will need:<br/>
 Big data developers, data analysts, data scientists, and Azure developers who want to develop a real-time event processing solutions
 ### Technical Requirements
-This course has the following software requirements:<br/>
-4GB RAM
+
+4GB RAM<br/>
 500GB Hard-disk storage
 
 
