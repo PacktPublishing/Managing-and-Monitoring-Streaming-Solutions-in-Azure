@@ -1,0 +1,24 @@
+﻿{
+  "Name": "CallStream",
+  "Type": "Data Stream",
+  "DataSourceType": "Event Hub",
+  "Sample": null,
+  "EventHubProperties": {
+    "ConsumerGroupName": null,
+    "EventHubName": "telcoeventhub",
+    "ServiceBusNamespace": "eventhubnewdemo",
+    "SharedAccessPolicyKey": null,
+    "SharedAccessPolicyName": "ASA"
+  },
+  "BlobStorageProperties": null,
+  "IoTHubProperties": null,
+  "BlobReferenceProperties": null,
+  "Serialization": {
+    "Encoding": "UTF8",
+    "Type": "Json",
+    "FieldDelimiter": null,
+    "Format": "LineSeparated"
+  },
+  "DataSourceCredentialDomain": "d0d0d9d1-8a58-480b-b17e-e12a30bf45a7.StreamAnalyticsCredential",
+  "ScriptType": "Input"
+}

@@ -1,0 +1,25 @@
+﻿{
+  "Name": "Output",
+  "DataSourceType": "SQL Database",
+  "EventHubProperties": null,
+  "BlobStorageProperties": null,
+  "SQLDatabaseProperties": {
+    "Database": "TollDataDB",
+    "Password": null,
+    "Server": "lq6rvfvnl8.database.windows.net",
+    "Table": "TollDataRefJoin",
+    "User": "tolladmin"
+  },
+  "TableStorageProperties": null,
+  "ServiceBusQueueProperties": null,
+  "ServiceBusTopicProperties": null,
+  "DocumentDbProperties": null,
+  "Serialization": {
+    "Encoding": "UTF8",
+    "Type": "Json",
+    "FieldDelimiter": null,
+    "Format": "LineSeparated"
+  },
+  "DataSourceCredentialDomain": "820ac7e6-fea9-4893-ad0b-4ee9d2db3f16.StreamAnalyticsCredential",
+  "ScriptType": "Output"
+}

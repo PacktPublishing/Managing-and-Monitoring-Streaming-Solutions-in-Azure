@@ -1,0 +1,24 @@
+﻿{
+  "Name": "TwitterInput",
+  "Type": "Data Stream",
+  "DataSourceType": "Event Hub",
+  "Sample": null,
+  "EventHubProperties": {
+    "ConsumerGroupName": null,
+    "EventHubName": "twittersentiments",
+    "ServiceBusNamespace": "twittersentiments",
+    "SharedAccessPolicyKey": null,
+    "SharedAccessPolicyName": "ASA"
+  },
+  "BlobStorageProperties": null,
+  "IoTHubProperties": null,
+  "BlobReferenceProperties": null,
+  "Serialization": {
+    "Encoding": "UTF8",
+    "Type": "Json",
+    "FieldDelimiter": null,
+    "Format": "LineSeparated"
+  },
+  "DataSourceCredentialDomain": "8715aeef-1a24-4632-8fb5-13ee1b2aabdc.StreamAnalyticsCredential",
+  "ScriptType": "Input"
+}

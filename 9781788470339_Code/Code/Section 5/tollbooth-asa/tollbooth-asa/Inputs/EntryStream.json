@@ -1,0 +1,24 @@
+﻿{
+  "Name": "EntryStream",
+  "Type": "Data Stream",
+  "DataSourceType": "Event Hub",
+  "Sample": null,
+  "EventHubProperties": {
+    "ConsumerGroupName": null,
+    "EventHubName": "entry",
+    "ServiceBusNamespace": "TollData8674310887",
+    "SharedAccessPolicyKey": null,
+    "SharedAccessPolicyName": "RootManageSharedAccessKey"
+  },
+  "BlobStorageProperties": null,
+  "IoTHubProperties": null,
+  "BlobReferenceProperties": null,
+  "Serialization": {
+    "Encoding": "UTF8",
+    "Type": "Json",
+    "FieldDelimiter": null,
+    "Format": "LineSeparated"
+  },
+  "DataSourceCredentialDomain": "716f5a63-add4-4dde-a2ca-77fa250d2743.StreamAnalyticsCredential",
+  "ScriptType": "Input"
+}

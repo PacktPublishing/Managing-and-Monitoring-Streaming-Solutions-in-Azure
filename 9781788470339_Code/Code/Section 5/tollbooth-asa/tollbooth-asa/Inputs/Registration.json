@@ -1,0 +1,29 @@
+﻿{
+  "Name": "Registration",
+  "Type": "Reference data",
+  "DataSourceType": "Blob Storage",
+  "Sample": null,
+  "EventHubProperties": null,
+  "BlobStorageProperties": null,
+  "IoTHubProperties": null,
+  "BlobReferenceProperties": {
+    "Container": "tolldata",
+    "DateFormat": "yyyy/MM/dd",
+    "PathPattern": "Registration.json",
+    "StorageAccounts": [
+      {
+        "AccountKey": null,
+        "AccountName": "tolldata8674310887"
+      }
+    ],
+    "TimeFormat": "HH"
+  },
+  "Serialization": {
+    "Encoding": "UTF8",
+    "Type": "Json",
+    "FieldDelimiter": null,
+    "Format": "LineSeparated"
+  },
+  "DataSourceCredentialDomain": "60bb8b49-14b1-45fb-8faf-420a5a7db16c.StreamAnalyticsCredential",
+  "ScriptType": "Input"
+}

@@ -1,0 +1,13 @@
+﻿SELECT Topic,count(*) AS Count, Avg(SentimentScore) AS AvgSentiment, 
+System.Timestamp AS Insert_Time
+INTO TweetBI
+FROM TwitterInput TIMESTAMP BY CreatedAt 
+GROUP BY HoppingWindow(second,10,5), Topic
+
+/* Find Trending Topic from Twitter Data Analysis */
+
+/*SELECT System.Timestamp as Time, Topic, COUNT(*) as Mentions
+INTO TweetBI
+FROM TwitterStream TIMESTAMP BY CreatedAt
+GROUP BY SLIDINGWINDOW(s, 5), topic
+HAVING COUNT(*) > 20 */

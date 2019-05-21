@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E6C563F2-BDC2-4A24-ACBF-01715157DCBB}") = "TollBooth-ASA", "TollBooth-ASA\TollBooth-ASA.asaproj", "{1C6A9A0E-912F-43EF-8289-0C3BFE1C37BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C6A9A0E-912F-43EF-8289-0C3BFE1C37BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C6A9A0E-912F-43EF-8289-0C3BFE1C37BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C6A9A0E-912F-43EF-8289-0C3BFE1C37BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C6A9A0E-912F-43EF-8289-0C3BFE1C37BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {883419A5-96F9-461B-974A-035E31B4B0E8}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,30 @@
+﻿{
+  "Name": "CallStream-Blob",
+  "DataSourceType": "Blob Storage",
+  "EventHubProperties": null,
+  "BlobStorageProperties": {
+    "Container": "sa-fraudulentcalls-demo",
+    "DateFormat": "yyyy/MM/dd",
+    "PathPattern": "",
+    "StorageAccounts": [
+      {
+        "AccountKey": null,
+        "AccountName": "safrauddectectiondemo"
+      }
+    ],
+    "TimeFormat": "HH"
+  },
+  "SQLDatabaseProperties": null,
+  "TableStorageProperties": null,
+  "ServiceBusQueueProperties": null,
+  "ServiceBusTopicProperties": null,
+  "DocumentDbProperties": null,
+  "Serialization": {
+    "Encoding": "UTF8",
+    "Type": "Json",
+    "FieldDelimiter": null,
+    "Format": "LineSeparated"
+  },
+  "DataSourceCredentialDomain": "8c90a948-b6b9-4f65-8fcd-a6ca1723e85e.StreamAnalyticsCredential",
+  "ScriptType": "Output"
+}

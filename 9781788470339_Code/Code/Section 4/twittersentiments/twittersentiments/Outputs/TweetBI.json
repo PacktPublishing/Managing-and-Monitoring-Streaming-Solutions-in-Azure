@@ -1,0 +1,25 @@
+﻿{
+  "Name": "TweetBI",
+  "DataSourceType": "SQL Database",
+  "EventHubProperties": null,
+  "BlobStorageProperties": null,
+  "SQLDatabaseProperties": {
+    "Database": "TwitterDemo",
+    "Password": null,
+    "Server": "pg1x3y58d1.database.windows.net",
+    "Table": "TweetCount",
+    "User": "adminuser@pg1x3y58d1"
+  },
+  "TableStorageProperties": null,
+  "ServiceBusQueueProperties": null,
+  "ServiceBusTopicProperties": null,
+  "DocumentDbProperties": null,
+  "Serialization": {
+    "Encoding": "UTF8",
+    "Type": "Json",
+    "FieldDelimiter": null,
+    "Format": "LineSeparated"
+  },
+  "DataSourceCredentialDomain": "a766d63b-64cd-4d20-ad50-8e2b829989a9.StreamAnalyticsCredential",
+  "ScriptType": "Output"
+}

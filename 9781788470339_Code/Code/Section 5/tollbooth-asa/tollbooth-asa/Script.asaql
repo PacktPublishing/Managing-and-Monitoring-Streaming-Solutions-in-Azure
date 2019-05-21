@@ -1,0 +1,36 @@
+﻿SELECT TollId, System.Timestamp AS WindowEnd, COUNT(*) AS Count
+INTO Output
+FROM EntryStream TIMESTAMP BY EntryTime
+GROUP BY TUMBLINGWINDOW(minute, 1), TollId 
+
+/*
+SELECT EntryStream.TollId, EntryStream.EntryTime, ExitStream.ExitTime, EntryStream.LicensePlate, 
+DATEDIFF (minute , EntryStream.EntryTime, ExitStream.ExitTime) AS DurationInMinutes
+FROM EntryStream TIMESTAMP BY EntryTime
+JOIN ExitStream TIMESTAMP BY ExitTime
+ON (EntryStream.TollId= ExitStream.TollId AND EntryStream.LicensePlate = ExitStream.LicensePlate)
+AND DATEDIFF (minute, EntryStream, ExitStream ) BETWEEN 0 AND 15 */ 
+
+/*SELECT EntryStream.EntryTime, EntryStream.LicensePlate, Registration.RegistrationId
+INTO output
+FROM EntryStream TIMESTAMP BY EntryTime
+JOIN Registration
+ON EntryStream.LicensePlate = Registration.LicensePlate
+WHERE Registration.Expired = '1' */
+
+
+/* Scale to 6 SU */
+ /*SELECT TollId, System.Timestamp AS WindowEnd, COUNT(*)AS Count
+FROM EntryStream TIMESTAMP BY EntryTime PARTITION BY PartitionId
+GROUP BY TUMBLINGWINDOW(minute,3), TollId, PartitionId */
+
+/* Scale to 24 SU */
+/*WITH Step1 AS (
+    SELECT COUNT(*) AS Count, TollBoothId
+    FROM EntryStream Partition By PartitionId
+    GROUP BY TumblingWindow(minute, 3), TollBoothId, PartitionId
+)
+
+SELECT SUM(Count) AS Count, TollBoothId
+FROM Step1
+GROUP BY TumblingWindow(minute, 3), TollBoothId */

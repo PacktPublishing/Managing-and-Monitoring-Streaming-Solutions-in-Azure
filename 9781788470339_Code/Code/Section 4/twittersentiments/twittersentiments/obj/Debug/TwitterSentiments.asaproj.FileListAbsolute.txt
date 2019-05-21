@@ -1,0 +1,3 @@
+c:\users\anindita-pc\source\repos\TwitterSentiments\TwitterSentiments\bin\Debug\ASAApplication
+c:\users\anindita-pc\source\repos\TwitterSentiments\TwitterSentiments\obj\Debug\TwitterSentiments.asaproj.CoreCompileInputs.cache
+c:\users\anindita-pc\source\repos\TwitterSentiments\TwitterSentiments\obj\Debug\ASAApplication
